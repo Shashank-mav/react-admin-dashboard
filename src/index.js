@@ -6,7 +6,7 @@ import { ClerkProvider } from '@clerk/clerk-react';
 
 const frontendApi = 'pk_test_Zmlyc3QtcXVhaWwtNDguY2xlcmsuYWNjb3VudHMuZGV2JA';
 
-console.log('Clerk Frontend API Key:', frontendApi); // Add this line for debugging
+console.log('Clerk Frontend API Key:', frontendApi); 
 
 if (!frontendApi) {
   throw new Error("Missing Clerk Frontend API Key");
